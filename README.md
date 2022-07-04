@@ -1,2 +1,2 @@
-Payment details/Add new card UI built with JavaScript and CSS. 
+Payment details/Add new card UI built with React and CSS. 
 
