@@ -1,13 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { Input } from "../common/Input";
 
-export default function Form({ children }) {
-  const [cardNumber, setCardNumber] = useState("");
-  const [expiryDate, setExpiryDate] = useState("");
-  const [securityCode, setSecurityCode] = useState("");
-  const [name, setName] = useState("");
-
+export default function Form() {
   const handleOnSubmit = (e) => {
     e.preventDefault();
   };
@@ -21,7 +16,7 @@ export default function Form({ children }) {
       </div>
       <div className="centered">
         <div className="item">
-          <Input label="EXPIRY DATE" placeholder="MM/YY" />
+          <Input label="EXPIRY DATE" />
         </div>
         <div className="item">
           <Input label="CCV/CVC" />
@@ -37,7 +32,7 @@ export default function Form({ children }) {
         </label>
       </div>
       <div>
-        <button>ADD CARD</button>
+        <button type="submit">ADD CARD</button>
       </div>
     </form>
   );
