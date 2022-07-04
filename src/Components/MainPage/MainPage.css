@@ -53,7 +53,7 @@ form div {
 
 .checkbox {
   color: #686871;
-  font-size: 11px;
+  font-size: 13px;
   display: flex;
   align-items: center;
 }
@@ -81,8 +81,4 @@ input.clicked {
 .mainApp {
   height: 100vh;
   display: flex;
-}
-
-input label {
-  font-size: large;
 }

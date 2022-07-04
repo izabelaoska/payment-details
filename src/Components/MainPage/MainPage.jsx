@@ -9,30 +9,30 @@ export default function MainPage() {
     <>
       <Card>
         <form className="mainForm">
-          <h1>Add new card</h1>
+          <h1>ADD NEW CARD</h1>
           <div className="border" />
           <div className="item">
-            <Input label="Card number" />
+            <Input label="CARD NUMBER" />
           </div>
           <div className="centered">
             <div className="item">
-              <Input label="Expiry date" />
+              <Input label="EXPIRY DATE" />
             </div>
             <div className="item">
               <Input label="CCV/CVC" />
             </div>
           </div>
           <div className="item">
-            <Input label="Cardholder's name" />
+            <Input label="CARDHOLDER'S NAME" />
           </div>
           <div>
             <label className="checkbox label">
               <input type="checkbox" style={{ width: "auto" }} />
-              Save card
+              SAVE CARD
             </label>
           </div>
           <div>
-            <button>Add card</button>
+            <button>ADD CARD</button>
           </div>
         </form>
       </Card>
