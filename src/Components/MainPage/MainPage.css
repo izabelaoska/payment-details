@@ -82,3 +82,7 @@ input.clicked {
   height: 100vh;
   display: flex;
 }
+
+input label {
+  font-size: large;
+}
