@@ -1,0 +1,79 @@
+form div {
+  margin-top: 15px;
+}
+
+.mainForm input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #b8b8c0;
+}
+
+.centered {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-top: 0;
+}
+.border {
+  border-top: 1px solid #b8b8c0;
+}
+
+.mainForm button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #1477f5;
+  background-color: #1477f5;
+  color: #fdfeff;
+}
+.mainForm h1 {
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mainForm .item {
+  position: relative;
+}
+
+.mainForm .item label {
+  font-size: 11px;
+  position: absolute;
+  top: -5px;
+  left: 12px;
+  background-color: #ffffff;
+  color: #686871;
+}
+
+.checkbox {
+  color: #686871;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  outline: none;
+}
+
+label.clicked {
+  color: #1477f5 !important;
+}
+
+input.clicked {
+  border-color: #1477f5;
+  outline: 1px solid #1477f5;
+}
+.card {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 10px, 20px;
+}
+.mainApp {
+  height: 100vh;
+  display: flex;
+}
