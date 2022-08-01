@@ -71,7 +71,7 @@ input.clicked {
   outline: 1px solid #1477f5;
 }
 .card {
-  width: 50%;
+  width: 500px;
   margin: auto;
   padding: 10px;
   border-radius: 20px;
